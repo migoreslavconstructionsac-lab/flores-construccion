@@ -16,3 +16,12 @@
     });
   }
 })();
+
+// Fotografías: si la fuente de stock externa deja de responder, mostrar imagen local relacionada.
+document.querySelectorAll('img[data-fallback]').forEach((image) => {
+  image.addEventListener('error', () => {
+    if (image.dataset.triedFallback === '1') return;
+    image.dataset.triedFallback = '1';
+    image.src = image.dataset.fallback;
+  });
+});

@@ -1,0 +1,24 @@
+index.html: Tarjeta Inicio 1: assets/foto-real-obras.webp -> assets/pavimentacion-camino-andino.webp
+index.html: Tarjeta Inicio 2: assets/foto-real-servicios.webp?v=20261110b -> assets/establecimiento-salud-techo-rojo.webp
+index.html: Tarjeta Inicio 3: assets/foto-real-bienes.webp?v=20261110b -> assets/entrega-bienes-almacen.webp
+index.html: Tarjeta Inicio 4: assets/foto-real-consultoria.webp -> assets/equipo-revision-en-campo.webp
+obras.html: Imagen de cabecera: --hero-img:url("assets/foto-real-obras.webp") -> --hero-img:url("assets/pavimentacion-camino-andino.webp")
+servicios.html: Imagen de cabecera: --hero-img:url("assets/foto-real-servicios.webp?v=20261110b") -> --hero-img:url("assets/equipo-conformidad-sin-texto.webp")
+bienes.html: Imagen de cabecera: --hero-img:url("assets/foto-real-bienes.webp?v=20261110b") -> --hero-img:url("assets/entrega-bienes-almacen.webp")
+consultoria.html: Imagen de cabecera: --hero-img:url("assets/foto-real-consultoria.webp") -> --hero-img:url("assets/equipo-revision-en-campo.webp")
+obras.html: Especialidad 1: https://images.pexels.com/photos/4043996/pexels-photo-4043996.jpeg?auto=compress&cs=tinysrgb&w=1200 -> assets/referencia-saneamiento.webp
+obras.html: Especialidad 4: https://images.pexels.com/photos/18848013/pexels-photo-18848013.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/39082634/pexels-photo-39082634.jpeg?auto=compress&cs=tinysrgb&w=1200
+obras.html: Especialidad 6: https://images.pexels.com/photos/20609453/pexels-photo-20609453.jpeg?auto=compress&cs=tinysrgb&w=1200 -> assets/establecimiento-salud-techo-rojo.webp
+obras.html: Especialidad 8: https://images.pexels.com/photos/5493654/pexels-photo-5493654.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/29181494/pexels-photo-29181494.jpeg?auto=compress&cs=tinysrgb&w=1200
+obras.html: Especialidad 9: https://images.pexels.com/photos/38948572/pexels-photo-38948572.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/40280377/pexels-photo-40280377.jpeg?auto=compress&cs=tinysrgb&w=1200
+servicios.html: Especialidad 1: https://images.pexels.com/photos/9741531/pexels-photo-9741531.jpeg?auto=compress&cs=tinysrgb&w=1200 -> assets/establecimiento-salud-techo-rojo.webp
+servicios.html: Especialidad 3: https://images.pexels.com/photos/9431615/pexels-photo-9431615.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/5264825/pexels-photo-5264825.jpeg?auto=compress&cs=tinysrgb&w=1200
+servicios.html: Especialidad 4: https://images.pexels.com/photos/35290675/pexels-photo-35290675.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=1200
+servicios.html: Especialidad 5: https://images.pexels.com/photos/30580530/pexels-photo-30580530.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/6474313/pexels-photo-6474313.jpeg?auto=compress&cs=tinysrgb&w=1200
+servicios.html: Especialidad 6: https://images.pexels.com/photos/34975633/pexels-photo-34975633.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/31608473/pexels-photo-31608473.jpeg?auto=compress&cs=tinysrgb&w=1200
+servicios.html: Especialidad 7: https://images.pexels.com/photos/26100225/pexels-photo-26100225.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/27928761/pexels-photo-27928761.jpeg?auto=compress&cs=tinysrgb&w=1200
+servicios.html: Especialidad 8: https://images.pexels.com/photos/33792835/pexels-photo-33792835.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/14420873/pexels-photo-14420873.jpeg?auto=compress&cs=tinysrgb&w=1200
+servicios.html: Especialidad 11: https://images.pexels.com/photos/5463580/pexels-photo-5463580.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1200
+servicios.html: Especialidad 12: https://images.pexels.com/photos/15419937/pexels-photo-15419937.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/33658802/pexels-photo-33658802.jpeg?auto=compress&cs=tinysrgb&w=1200
+consultoria.html: Especialidad 3: https://images.pexels.com/photos/19895868/pexels-photo-19895868.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/37198881/pexels-photo-37198881.jpeg?auto=compress&cs=tinysrgb&w=1200
+consultoria.html: Especialidad 4: https://images.pexels.com/photos/7937365/pexels-photo-7937365.jpeg?auto=compress&cs=tinysrgb&w=1200 -> https://images.pexels.com/photos/7937752/pexels-photo-7937752.jpeg?auto=compress&cs=tinysrgb&w=1200
