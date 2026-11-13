@@ -25,3 +25,18 @@ document.querySelectorAll('img[data-fallback]').forEach((image) => {
     image.src = image.dataset.fallback;
   });
 });
+
+// Cierre del submenú con clic exterior, Escape o selección de destino.
+(() => {
+ const dropdown = document.querySelector('.services-dropdown');
+ if (!dropdown) return;
+ document.addEventListener('click', event => {
+  if (!dropdown.contains(event.target) || event.target.closest('.services-submenu a') || event.target.closest('.menu-toggle')) dropdown.open = false;
+ });
+ document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && dropdown.open) {
+   dropdown.open = false;
+   dropdown.querySelector('summary').focus();
+  }
+ });
+})();

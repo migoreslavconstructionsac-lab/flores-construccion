@@ -1,0 +1,50 @@
+{
+  "aplicadas": [
+    {
+      "pagina": "obras",
+      "apartado": "04",
+      "imagen": "assets/carretera-motoniveladora.webp",
+      "generada_IA": false
+    },
+    {
+      "pagina": "servicios",
+      "apartado": "04",
+      "imagen": "assets/reparacion-tuberia-referencial.webp",
+      "generada_IA": true
+    },
+    {
+      "pagina": "servicios",
+      "apartado": "05",
+      "imagen": "assets/acabado-cielo-raso.webp",
+      "generada_IA": false
+    },
+    {
+      "pagina": "servicios",
+      "apartado": "06",
+      "imagen": "assets/pintura-fachada.webp",
+      "generada_IA": false
+    },
+    {
+      "pagina": "servicios",
+      "apartado": "09",
+      "imagen": "assets/mantenimiento-rejas-cascos-azules.webp",
+      "generada_IA": true
+    },
+    {
+      "pagina": "servicios",
+      "apartado": "10",
+      "imagen": "assets/conservacion-fachada.webp",
+      "generada_IA": false
+    },
+    {
+      "pagina": "servicios",
+      "apartado": "12",
+      "imagen": "assets/estructura-cubierta.webp",
+      "generada_IA": false
+    }
+  ],
+  "pendientes_eleccion": [
+    "O09 - Obras civiles complementarias",
+    "S02 - Instituciones educativas y locales públicos"
+  ]
+}

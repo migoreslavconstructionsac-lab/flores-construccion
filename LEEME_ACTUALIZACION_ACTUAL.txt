@@ -1,0 +1,10 @@
+FLORES — Paquete con menú desplegable y siete fotografías confirmadas.
+
+S09 incorpora la imagen IA corregida de ambos trabajadores con cascos azules. Se conserva el menú Servicios con cuatro destinos en las cinco páginas.
+También se aplicaron las elecciones confirmadas O04-B, S04-A (IA), S05-B, S06-A, S10-C y S12-C.
+O09 y S02 conservan sus imágenes anteriores porque falta identificar inequívocamente la opción final elegida.
+
+Para actualizar: extraer este ZIP y subir su contenido a la raíz del repositorio, sustituyendo los archivos correspondientes e incluyendo assets. No subir el ZIP como archivo único. Hacer una copia de seguridad antes.
+
+No se ha publicado la actualización. Se comprobaron las siete imágenes, las rutas locales y los menús. No se hizo prueba visual en navegador.
+Las imágenes de IA están identificadas como referenciales. Fotografías de stock: licencia y fuentes en FUENTES_ACTUALIZACION.md.
