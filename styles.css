@@ -205,3 +205,121 @@ article[id^="especialidad-"]{scroll-margin-top:100px}
   .home-page .hero-tags { margin-top: 30px; }
   .home-page .about-aside h3 { font-size: clamp(10.5px, 3vw, 13px); }
 }
+
+
+/* =========================================================
+   FLORES - refinamiento tipografico de la portada principal
+   Solo afecta la primera pantalla de Inicio (index.html).
+   Identidad consistente con el nombre del encabezado.
+   ========================================================= */
+.home-page .hero {
+  min-height: 610px;
+}
+.home-page .hero-inner {
+  padding-top: 54px;
+  padding-bottom: 35px;
+}
+.home-page .hero-brand {
+  margin: 0 0 22px;
+}
+.home-page .hero-brand-name {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-size: clamp(52px, 5.3vw, 72px);
+  font-weight: 800; /* mismo peso del logotipo en el menu */
+  letter-spacing: .13em; /* mismo espaciado del logotipo */
+  line-height: 1.06;
+  color: #f5f5f2;
+}
+.home-page .hero-brand-subtitle {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  margin-top: 7px;
+  font-size: clamp(11px, 1vw, 13px);
+  font-weight: 700;
+  letter-spacing: .09em;
+  line-height: 1.4;
+  color: var(--gold-light);
+}
+.home-page .hero h1 {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-size: clamp(29px, 2.85vw, 38px);
+  font-weight: 800;
+  letter-spacing: .008em;
+  line-height: 1.21;
+  max-width: 755px;
+  margin: 21px 0 18px;
+  text-wrap: balance;
+}
+.home-page .hero h1 em {
+  font-weight: 800;
+}
+.home-page .hero-inner > p:not(.slogan) {
+  font-size: clamp(14px, 1.1vw, 15px);
+  line-height: 1.65;
+  max-width: 600px;
+  margin: 0 0 23px;
+}
+.home-page .hero .btns {
+  gap: 12px;
+}
+.home-page .hero .slogan {
+  font-size: 14px;
+  line-height: 1.45;
+  margin-top: 22px;
+}
+.home-page .hero-tags {
+  margin-top: 33px;
+  gap: 18px;
+}
+.home-page .hero-tags > a {
+  padding-right: 18px;
+}
+@media (max-width: 760px) {
+  .home-page .hero {
+    min-height: 570px;
+  }
+  .home-page .hero-inner {
+    padding-top: 49px;
+    padding-bottom: 34px;
+  }
+  .home-page .hero-brand {
+    margin-bottom: 20px;
+  }
+  .home-page .hero-brand-name {
+    font-size: clamp(43px, 8.7vw, 62px);
+    letter-spacing: .10em;
+  }
+  .home-page .hero-brand-subtitle {
+    font-size: clamp(10px, 2vw, 12px);
+    letter-spacing: .075em;
+  }
+  .home-page .hero h1 {
+    font-size: clamp(26px, 5.1vw, 35px);
+    line-height: 1.23;
+    margin: 20px 0 15px;
+    max-width: 570px;
+  }
+  .home-page .hero-inner > p:not(.slogan) {
+    max-width: 540px;
+    margin-bottom: 20px;
+  }
+  .home-page .hero-tags {
+    margin-top: 27px;
+    gap: 15px;
+  }
+  .home-page .hero-tags > a {
+    padding-right: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .home-page .hero-brand-name {
+    font-size: clamp(40px, 11vw, 48px);
+    letter-spacing: .09em;
+  }
+  .home-page .hero h1 {
+    font-size: clamp(24px, 6.8vw, 28px);
+    letter-spacing: 0;
+  }
+  .home-page .hero .slogan {
+    font-size: 13px;
+  }
+}
