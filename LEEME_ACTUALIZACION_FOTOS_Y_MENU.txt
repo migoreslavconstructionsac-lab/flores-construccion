@@ -1,0 +1,22 @@
+FLORES | INGENIERÍA Y CONSTRUCCIÓN
+Actualización de la web — 12 de noviembre de 2026
+
+ARCHIVO BASE:
+Se ha actualizado la versión del proyecto previamente guardada como FLORES_MENU_FORMATO_UNIFORME.zip. Se mantienen sus cinco páginas HTML, estilos, JavaScript y recursos locales.
+
+CAMBIOS:
+- bienes.html: 02 Ferretería y herramientas, foto B (Pexels 8985910).
+- bienes.html: 03 Materiales eléctricos e iluminación, foto C (Pexels 38171184).
+- bienes.html: 08 Productos de limpieza e higiene, foto C (Pexels 5217889).
+- bienes.html: 09 Uniformes y equipos de protección personal, foto A (Pexels 34442873).
+- Menú Servicios: se usa el mismo formato de texto en las cinco páginas: Ejecución de obras, Prestación de servicios, Proveeduria de bienes, Consultoría de obras.
+- index.html: mismo formato para el acceso rápido y la tarjeta Proveeduria de bienes.
+- El resto de contenido, estilos, recursos y navegación se ha mantenido.
+
+PARA PUBLICAR EN GITHUB:
+1. Descomprime el ZIP.
+2. Entra al repositorio migoreslavconstructionsac-lab/flores-construccion.
+3. Add file > Upload files, arrastra los archivos y la carpeta assets extraídos (o reemplaza solo los cinco HTML si ya tienes los demás archivos idénticos).
+4. Confirma los cambios. No hace falta borrar el contenido anterior.
+
+Las 4 fotos nuevas se sirven desde Pexels mediante sus URL externas. Si se pierde acceso externo a Pexels, se usa la imagen local de respaldo existente para cada tarjeta.
