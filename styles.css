@@ -184,3 +184,24 @@ article[id^="especialidad-"]{scroll-margin-top:100px}
 @media(max-width:760px){.specialties-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.specialty-card{min-height:184px;padding:22px 13px;gap:15px}.specialty-card .specialty-icon{width:58px;height:58px}.specialty-card h3{font-size:13px;min-height:56px}.specialties-intro{font-size:13px}.specialties-note{font-size:11px}}
 @media(max-width:380px){.specialties-grid{grid-template-columns:1fr}.specialty-card{min-height:155px}.specialty-card h3{min-height:0;max-width:260px}}
 @media(prefers-reduced-motion:reduce){.specialty-card{transition:none}.specialty-card:hover{transform:none}}
+
+
+/* Inicio FLORES (2026-11): jerarquía comercial y encabezado de habilitaciones RNP. */
+.home-page .hero { min-height: 610px; }
+.home-page .hero-inner { padding-top: 60px; padding-bottom: 40px; }
+.home-page .hero-brand { display: flex; flex-direction: column; align-items: flex-start; margin: 0 0 16px; }
+.home-page .hero-brand-name { color: #fff; font-size: clamp(56px, 6.25vw, 86px); font-weight: 900; letter-spacing: -.055em; line-height: 1.01; }
+.home-page .hero-brand-subtitle { color: var(--gold-light); margin-top: 8px; font-size: clamp(11px, 1.12vw, 15px); font-weight: 800; letter-spacing: .14em; line-height: 1.3; }
+.home-page .hero h1 { font-size: clamp(30px, 3.16vw, 43px); max-width: 750px; line-height: 1.17; margin: 19px 0 16px; letter-spacing: -.03em; }
+.home-page .hero-tags { margin-top: 36px; }
+.home-page .about-aside h3 { font-size: clamp(11px, 1.05vw, 14px); font-weight: 800; white-space: nowrap; letter-spacing: -.02em; line-height: 1.45; }
+@media (max-width: 760px) {
+  .home-page .hero { min-height: 560px; }
+  .home-page .hero-inner { padding-top: 49px; padding-bottom: 30px; }
+  .home-page .hero-brand { margin-bottom: 12px; }
+  .home-page .hero-brand-name { font-size: clamp(45px, 10.5vw, 66px); }
+  .home-page .hero-brand-subtitle { font-size: 10px; letter-spacing: .1em; }
+  .home-page .hero h1 { font-size: clamp(27px, 6.2vw, 38px); margin: 17px 0 14px; max-width: 550px; }
+  .home-page .hero-tags { margin-top: 30px; }
+  .home-page .about-aside h3 { font-size: clamp(10.5px, 3vw, 13px); }
+}
